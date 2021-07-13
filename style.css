@@ -1,0 +1,728 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Jura', sans-serif;
+    text-transform: uppercase;
+    color: white;
+    background: black;
+    font-size: 18px;
+}
+
+h3{
+    font-size: 36px;
+    font-weight: 700;
+    margin-bottom: 5vh;
+}
+
+.gris{
+    color: #B5B4B4;
+}
+
+.vert{
+    color: #23BE79;
+}
+
+.rouge{
+    color: #FF6667;
+}
+
+/* NAVBAR */
+.entete .navbar{
+    overflow: hidden;
+    background-color: #333333;
+}
+  
+#navbar a{
+    float: left;
+    display: block;
+    color: #23BE79;
+    text-align: center;
+    padding: 20px 30px;
+    text-decoration: none;
+    font-size: 18px;
+}
+  
+#navbar a:hover{
+    background-color: #FF6667;
+    color: white;
+}
+  
+#navbar a.active{
+    background-color: #23BE79;
+    color: white;
+}
+  
+.content{
+    padding: 16px;
+}
+  
+.sticky{
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+  
+.sticky + .content{
+    padding-top: 60px;
+}
+/* FIN NAVBAR */
+
+/* BURGER */
+.burger{
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    height: 350px;
+    top: 0;
+    left: 0;
+    background-color: #111111;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+}
+  
+.burger a{
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 18px;
+    color: #23BE79;
+    display: block;
+    transition: 0.3s;
+}
+  
+.burger a:hover{
+    color: #FF6667;
+}
+  
+.burger .closebtn{
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+ }
+  
+.openbtn{
+    font-size: 18px;
+    font-family: 'Jura', sans-serif;
+    text-transform: uppercase;
+    font-weight: 700;
+    cursor: pointer;
+    background-color: #23BE79;
+    color: white;
+    padding: 20px 15px;
+    border: none;
+}
+  
+.openbtn:hover{
+    background-color:#23BE79;
+}
+/* FIN BURGER */
+
+/* ENTÊTE */
+.entete{
+    background: url(images/entete.jpg) no-repeat center/cover;
+    font-weight: 700;
+    padding-bottom: 10vh;
+}
+
+.entete .titre-1{
+    padding-left: 50px;
+    padding-top: 30vh;
+    font-size: 96px;
+}
+
+.entete .titre-2{
+    padding-left: 50px;
+    font-size: 64px;
+}
+/* FIN ENTÊTE */
+
+/* VIE PRIVEE */
+.vie-privee{
+    display: flex;
+    justify-content: center;
+    margin-top: 10vh;
+    margin-bottom: 10vh;
+}
+
+.vie-privee .privee{
+    border: 1px solid #B5B4B4;
+    border-radius: 25px;
+    padding: 20px;
+    width: 40vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+/* FIN VIE PRIVEE */
+
+/* CREDIT SOCIAL */
+.credit-soc{
+    padding-left: 50px;
+    padding-right: 50px;
+    margin-bottom: 10vh;
+}
+
+.credit-soc h3{
+    text-align: center;
+}
+
+.credit-soc .img1{
+    width: 40vw;
+}
+
+.credit-soc .img2{
+    height: 70vh;
+}
+
+.credit-soc .a-droite{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 30px;
+}
+.para1 .p1{
+    width: 40vw;
+    margin-bottom: 45px;
+}
+
+.credit-soc .a-gauche{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 30px;
+}
+.para2 .p2{
+    width: 40vw;
+    margin-bottom: 45px;
+}
+/* FIN CREDIT SOCIAL */
+
+/* SCORE */
+.score{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10vh;
+    margin-bottom: 10vh;
+    gap: 2vw;
+}
+
+.score h3{
+    text-align: center;
+}
+
+.score-1 h3{
+    width: 20vw;
+}
+
+.score-2 h3{
+    width: 20vw;
+}
+
+.score .score-1{
+    border: 1px solid #23BE79;
+    border-radius: 25px;
+    padding: 20px;
+    width: 30vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.score .score-2{
+    border: 1px solid #FF6667;
+    border-radius: 25px;
+    padding: 20px;
+    width: 30vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.score-1 .liste-score1{
+    margin-left: 20px;
+}
+
+.score-2 .liste-score2{
+    margin-left: 20px;
+}
+/* FIN SCORE */
+
+/* GIF */
+.gif .score-3{
+    margin-top: 10vh;
+    margin-bottom: 10vh;
+    display: flex;
+    justify-content: center;
+}
+/* FIN GIF */
+
+/* LISTE NOIRE */
+.liste-noire{
+    padding-left: 50px;
+    padding-right: 50px;
+    margin-bottom: 10vh;
+}
+
+.liste-noire h3{
+    text-align: center;
+}
+
+.blacklist{
+    display: flex;
+    justify-content: space-around;
+    align-items:center;
+    gap: 30px;
+}
+
+.blacklist .liu-hu{
+    width: 30vw;
+}
+
+.para3 .p3{
+    width: 40vw;
+    margin-bottom: 45px;
+}
+/* FIN LISTE NOIRE */
+
+/* AVANTAGES & INCONVENIENTS */
+.av-inc .les3{
+    margin-bottom: 10vh;
+    gap: 2vw;
+    display: flex;
+    justify-content: center;
+}
+
+.av-inc h3{
+    margin-bottom: 5px;
+    text-align: center;
+}
+
+.avantages h3{
+    width: 20vw;
+    margin-bottom: 12vh;
+}
+
+.inconv h3{
+    width: 25vw;
+}
+
+.droits h3{
+    width: 25vw;
+    margin-bottom: 28vh;
+
+}
+
+.les3 .avantages{
+    border: 1px solid #23BE79;
+    border-radius: 25px;
+    padding: 20px;
+    width: 30vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.avantages .liste-av{
+    width: 25vw;
+}
+
+.les3 .inconv{
+    border: 1px solid #FF6667;
+    border-radius: 25px;
+    padding: 20px;
+    width: 35vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.inconv .liste-inc{
+    width: 30vw;
+}
+
+.les3 .droits{
+    border: 1px solid #B5B4B4;
+    border-radius: 25px;
+    padding: 20px;
+    width: 26vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.droits .liste-droits{
+    width: 20vw;
+}
+/* AVANTAGES & INCONVENIENTS MOBILE */
+.av-inc-m .les3-m{
+    margin-bottom: 10vh;
+    gap: 2vw;
+    display: flex;
+    justify-content: center;
+}
+
+.av-inc-m h3{
+    margin-bottom: 5px;
+    text-align: center;
+}
+
+.avantages-m h3{
+    width: 20vw;
+}
+
+.inconv-m h3{
+    width: 25vw;
+}
+
+.droits-m h3{
+    width: 30vw;
+}
+
+.les3-m .avantages-m{
+    border: 1px solid #23BE79;
+    border-radius: 25px;
+    width: 20vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.les3-m .inconv-m{
+    border: 1px solid #FF6667;
+    border-radius: 25px;
+    width: 25vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.les3-m .droits-m{
+    border: 1px solid #B5B4B4;
+    border-radius: 25px;
+    width: 32vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* FIN AVANTAGES &INCONVENIENTS */
+
+/* CONCLUSION */
+.conclusion{
+    background: url(images/conclu.jpg) no-repeat center/cover;
+    padding-bottom: 10vh;
+    padding-top: 10vh;
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+}
+
+.conclusion h3{
+    text-align: center;
+}
+
+.conclusion .conclu{
+    width: 80vw;
+    display: flex;
+    justify-content: space-around;
+}
+
+.conclu .anon{
+    height: 80vh;
+}
+
+.conclu .p4{
+    margin-bottom: 45px;
+    width: 40vw;
+}
+/* FIN CONCLUSION */
+
+/* ----------------------------------------------MEDIA QUERIES---------------------------------------------- */
+
+@media (min-width: 1270px){
+    .entete #menuburger, .openbtn{
+        display: none;
+    }
+}
+
+@media (max-width: 1270px){
+    .entete #navbar{
+        display: none;
+    }
+}
+
+@media (max-width: 1000px){
+    h3{
+        font-size: 24px;
+    }
+
+    .entete .titre-1{
+        padding-top: 30vh;
+        font-size: 72px;
+    }
+
+    .entete .titre-2{
+        font-size: 48px;
+    }
+}
+
+@media (max-width: 880px){
+    .entete .titre-1{
+        padding-top: 20vh;
+        font-size: 48px;
+    }
+
+    .entete .titre-2{
+        font-size: 24px;
+    }
+
+    .vie-privee .privee{
+        border: 1px solid #B5B4B4;
+        border-radius: 25px;
+        padding: 20px;
+        width: 80vw;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .credit-soc .a-droite{
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: center;
+        align-items: center;
+        gap: 30px;
+    }
+
+    .credit-soc .a-gauche{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 30px;
+    }
+
+    .para1 .p1{
+        width: 90vw;
+        margin-bottom: 30px;
+    }
+
+    .para2 .p2{
+        width: 90vw;
+        margin-bottom: 30px;
+    }
+
+    .credit-soc .img1{
+        width: 90vw;
+    }
+    
+    .credit-soc .img2{
+        height: 50vh;
+    }
+
+    .score{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-top: 10vh;
+        margin-bottom: 10vh;
+        gap: 2vw;
+    }
+    
+    .score .score-1{
+        border: 1px solid #23BE79;
+        border-radius: 25px;
+        padding: 20px;
+        width: 80vw;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+    }
+    
+    .score .score-2{
+        border: 1px solid #FF6667;
+        border-radius: 25px;
+        padding: 20px;
+        width: 80vw;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .score-1 h3{
+        width: 80vw;
+        text-align: center;
+    }
+    
+    .score-2 h3{
+        width: 80vw;
+        text-align: center;
+    }
+
+    .blacklist{
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: space-around;
+        align-items:center;
+        gap: 30px;
+    }
+    
+    .blacklist .liu-hu{
+        width: 80vw;
+    }
+    
+    .para3 .p3{
+        width: 90vw;
+        margin-bottom: 45px;
+    }
+
+    .av-inc .les3{
+        margin-bottom: 10vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .av-inc h3{
+        margin-bottom: 5px;
+    }
+    
+    .avantages h3{
+        width: 70vw;
+        margin-bottom: 30px;
+    }
+
+    .avantages ul{
+        margin-bottom: 20px;
+    }
+    
+    .inconv h3{
+        width: 70vw;
+        margin-bottom: 30px;
+    }
+
+    .inconv ul{
+        margin-bottom: 20px;
+    }
+    
+    .droits h3{
+        width: 70vw;
+        margin-bottom: 30px;
+    }
+
+    .droits ul{
+        margin-bottom: 20px;
+    }
+    
+    .les3 .avantages{
+        border: 1px solid #23BE79;
+        border-radius: 25px;
+        width: 90vw;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .liste-av li{
+        width: 80vw;
+        padding-left: 20px;
+    }
+    
+    .les3 .inconv{
+        border: 1px solid #FF6667;
+        border-radius: 25px;
+        width: 90vw;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .liste-inc li{
+        width: 80vw;
+    }
+    
+    .les3 .droits{
+        border: 1px solid #B5B4B4;
+        border-radius: 25px;
+        width: 90vw;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .liste-droits li{
+        width: 80vw;
+    }
+
+    .conclusion{
+        background: url(images/conclu.jpg) no-repeat center/cover;
+        padding-bottom: 10vh;
+        padding-top: 10vh;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .conclu .anon{
+        width: 50vw;
+        height: auto;
+    }
+    
+    .conclu .p4{
+        margin-bottom: 30px;
+        width: 80vw;
+    }
+    
+    .conclusion .conclu{
+        width: 80vw;
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+@media (max-width: 470px){
+    .entete{
+        background: url(images/entete.jpg) no-repeat center/cover;
+        padding-left: 10px;
+        font-weight: 700;
+        padding-bottom: 5vh;
+    }
+
+    .entete .titre-1{
+        padding-left: 10px;
+        padding-top: 20vh;
+    }
+    
+    .entete .titre-2{
+        padding-left: 10px;
+    }
+}
+
+@media (max-width: 370px){
+    .entete{
+        background: url(images/entete.jpg) no-repeat center/cover;
+        padding-left: 5px;
+        font-weight: 700;
+        padding-bottom: 5vh;
+    }
+}
