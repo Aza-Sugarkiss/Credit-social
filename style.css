@@ -457,7 +457,7 @@ h3{
 }
 
 @media (max-width: 1270px){
-    .entete #navbar{
+    .entete #nav-bar{
         display: none;
     }
 }
