@@ -633,6 +633,7 @@ h3{
         border: 1px solid #23BE79;
         border-radius: 25px;
         width: 90vw;
+        margin-left: 20px;
         display: flex;
         flex-direction: column;
         justify-content: center;
@@ -648,6 +649,7 @@ h3{
         border: 1px solid #FF6667;
         border-radius: 25px;
         width: 90vw;
+        margin-left: 20px;
         display: flex;
         flex-direction: column;
         justify-content: center;
@@ -662,6 +664,7 @@ h3{
         border: 1px solid #B5B4B4;
         border-radius: 25px;
         width: 90vw;
+        margin-left: 20px;
         display: flex;
         flex-direction: column;
         justify-content: center;
