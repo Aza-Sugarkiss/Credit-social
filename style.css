@@ -31,12 +31,12 @@ h3{
 }
 
 /* NAVBAR */
-.entete .navbar{
+.entete .nav-bar{
     overflow: hidden;
     background-color: #333333;
 }
   
-#navbar a{
+#nav-bar a{
     float: left;
     display: block;
     color: #23BE79;
@@ -46,12 +46,12 @@ h3{
     font-size: 18px;
 }
   
-#navbar a:hover{
+#nav-bar a:hover{
     background-color: #FF6667;
     color: white;
 }
   
-#navbar a.active{
+#nav-bar a.active{
     background-color: #23BE79;
     color: white;
 }
